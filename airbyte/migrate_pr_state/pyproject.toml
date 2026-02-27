@@ -1,0 +1,8 @@
+[project]
+name = "migrate-pr-state"
+version = "0.1.0"
+description = "Migrate Airbyte pull_requests stream state from old flat format to new nested format"
+requires-python = ">=3.13"
+dependencies = [
+    "psycopg2-binary>=2.9.11",
+]
